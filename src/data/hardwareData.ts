@@ -1,0 +1,71 @@
+import { HardwareComponent, DeviceSortingItem } from '../types';
+
+export const HARDWARE_COMPONENTS: HardwareComponent[] = [
+  {
+    id: 'cpu',
+    name: 'CPU (Central Processing Unit)',
+    category: 'core',
+    role: 'The primary brain of the computer that carries out instructions, solves math algorithms, and orchestrates tasks millions of times per second.',
+    realWorldAnalogy: 'The Master Chef in a restaurant kitchen who reads recipe orders and cooks every dish.',
+    whatHappensWithoutIt: 'The computer cannot start or process a single line of code; nothing functions.',
+    funFact: 'Modern CPUs contain billions of microscopic transistors that turn on and off faster than a lightning strike!',
+  },
+  {
+    id: 'ram',
+    name: 'RAM (Random Access Memory)',
+    category: 'memory',
+    role: 'Ultra-fast temporary workspace memory where the computer holds currently open apps, game worlds, and active browser tabs.',
+    realWorldAnalogy: 'The Chef\'s prep table: things you are working on right now are right within reach.',
+    whatHappensWithoutIt: 'When you turn off the computer, everything in RAM vanishes (it is "volatile memory"). If RAM is full, the computer crawls to a freeze.',
+    funFact: 'Data in RAM travels into the CPU in nanoseconds—thousands of times faster than reading from a hard drive!',
+  },
+  {
+    id: 'storage',
+    name: 'SSD / Storage (Solid State Drive)',
+    category: 'memory',
+    role: 'Permanent storage where all your games, operating systems, homework docs, photos, and music stay safely saved even when power is off.',
+    realWorldAnalogy: 'The pantry or backpack: keep your books and saved work here overnight.',
+    whatHappensWithoutIt: 'You can\'t save any files or install Windows, macOS, or games.',
+    funFact: 'Unlike old mechanical spinning hard drives, SSDs have no moving parts and use flash memory chips like a USB drive or smartphone.',
+  },
+  {
+    id: 'gpu',
+    name: 'GPU (Graphics Processing Unit)',
+    category: 'display',
+    role: 'Specialized processor designed to render 3D game models, lighting effects, animations, and video pixels smoothly at high frame rates.',
+    realWorldAnalogy: 'An expert 3D animator and visual artist dedicated strictly to painting frames on your screen.',
+    whatHappensWithoutIt: 'Games run at 2 frames per second (laggy slideshow) or you get no video display output.',
+    funFact: 'GPUs have thousands of small cores working simultaneously, making them also ideal for training modern AI models!',
+  },
+  {
+    id: 'motherboard',
+    name: 'Motherboard',
+    category: 'system',
+    role: 'The main circuit board that connects the CPU, RAM, GPU, and peripherals so they can communicate across high-speed data buses.',
+    realWorldAnalogy: 'The city highway system and nervous system linking the brain to every organ.',
+    whatHappensWithoutIt: 'Components cannot communicate or receive synchronized electrical power.',
+    funFact: 'Copper traces embedded inside multilayer circuit boards act as microscopic electrical highways.',
+  },
+  {
+    id: 'psu',
+    name: 'PSU (Power Supply Unit)',
+    category: 'power',
+    role: 'Converts high-voltage alternating current (AC) from the wall outlet into clean, regulated direct current (DC) for delicate computer chips.',
+    realWorldAnalogy: 'The beating heart pumping oxygenated blood to every muscle.',
+    whatHappensWithoutIt: 'Zero electricity reaches the machine; a faulty PSU can damage sensitive chips.',
+    funFact: 'Power supplies are certified with efficiency ratings like 80 PLUS Bronze, Gold, and Platinum.',
+  },
+];
+
+export const DEVICE_SORTING_ITEMS: DeviceSortingItem[] = [
+  { id: 'dev-1', name: 'Microphone', category: 'input', description: 'Converts your sound waves into digital audio data.' },
+  { id: 'dev-2', name: 'Computer Monitor', category: 'output', description: 'Displays pixels and visuals sent from the GPU.' },
+  { id: 'dev-3', name: 'USB Flash Drive', category: 'storage', description: 'Holds files and documents persistently across different PCs.' },
+  { id: 'dev-4', name: 'Mechanical Keyboard', category: 'input', description: 'Sends keypress scancodes to the computer.' },
+  { id: 'dev-5', name: 'Stereo Speakers', category: 'output', description: 'Converts digital audio signals into audible sound waves.' },
+  { id: 'dev-6', name: 'Webcam', category: 'input', description: 'Captures video frames and streams them as digital data.' },
+  { id: 'dev-7', name: 'External SSD', category: 'storage', description: 'High-speed solid-state drive for backup files.' },
+  { id: 'dev-8', name: 'Color Inkjet Printer', category: 'output', description: 'Transfers digital text and images onto physical paper.' },
+  { id: 'dev-9', name: 'Optical Gaming Mouse', category: 'input', description: 'Tracks optical surface changes to move the cursor.' },
+  { id: 'dev-10', name: 'Headphones', category: 'output', description: 'Delivers private audio output directly to your ears.' },
+];

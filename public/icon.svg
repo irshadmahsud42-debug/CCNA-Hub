@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircle -->
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="none" stroke="#1e293b" stroke-width="4"/>
+  
+  <!-- Terminal Console Frame -->
+  <rect x="96" y="112" width="320" height="288" rx="28" fill="#020617" stroke="url(#accent)" stroke-width="8"/>
+  
+  <!-- Header dots -->
+  <circle cx="140" cy="152" r="10" fill="#ef4444"/>
+  <circle cx="172" cy="152" r="10" fill="#f59e0b"/>
+  <circle cx="204" cy="152" r="10" fill="#10b981"/>
+  
+  <!-- Cisco Router Ring Symbol -->
+  <g transform="translate(256, 276)">
+    <!-- Outer Router Circular Base -->
+    <circle cx="0" cy="0" r="68" fill="#090d16" stroke="#38bdf8" stroke-width="6"/>
+    <!-- 4 Arrows cross for Cisco Router -->
+    <path d="M-40,0 L-16,-14 L-16,-5 L20,-5 L20,-14 L40,0 L20,14 L20,5 L-16,5 L-16,14 Z" fill="url(#accent)"/>
+    <path d="M0,-40 L-14,-16 L-5,-16 L-5,20 L-14,20 L0,40 L14,20 L5,20 L5,-16 L14,-16 Z" fill="url(#accent)"/>
+  </g>
+  
+  <!-- Bottom Text Kicker -->
+  <text x="256" y="440" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-weight="800" font-size="28" fill="#ffffff" text-anchor="middle" letter-spacing="3">CCNA STUDIO</text>
+</svg>

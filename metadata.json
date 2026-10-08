@@ -1,0 +1,6 @@
+{
+  "name": "ByteQuest: Computer Essentials for Grade 8 & Under",
+  "description": "Interactive computer essentials learning app for kids up to 8th grade featuring visual coding puzzles, touch typing academy, digital citizenship scenarios, and hardware exploration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

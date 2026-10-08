@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ccna.labstudio",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7D:0F:52:CE:EB:2B:EE:EC:12:4A:E2:55:82:2B:99:99:99:99:99:99:99:99:99:99:99:99"
+      ]
+    }
+  }
+]
